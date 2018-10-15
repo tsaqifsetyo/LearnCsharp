@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication8
+{
+    class bangundatar
+    {
+        int alas;
+
+        public int LuasSegitiga()
+        {
+            Console.Clear();
+            Console.WriteLine("1. Segitiga");
+            Console.WriteLine("Masukan Alas:");
+            double a = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Masukan Tinggi :");
+            double b = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Luas Segitiga Adalah : {0}", a * b / 2);
+            return (alas);
+        }
+
+        public int LuasPersegi()
+        {
+            Console.Clear();
+            Console.WriteLine("2. Persegi");
+            Console.WriteLine("Masukan Sisi : ");
+            double c = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Luas Persegi Adalah : {0}", c * c);
+            return (alas);
+        }
+
+        public int LuasPersegiPanjang()
+        {
+            Console.Clear();
+            Console.WriteLine("3. Persegi Panjang");
+            Console.WriteLine("Masukkan Panjang : ");
+            double d = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Masukkan Lebar : ");
+            double e = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Luas Persegi panjang Adalah : {0}", d * e);
+            return (alas);
+        }
+
+        public int LuasJajarGenjang()
+        {
+            Console.Clear();
+            Console.WriteLine("4. Jajar genjang");
+            Console.WriteLine("Masukkan Alas 1 : ");
+            double f = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Masukkan Tinggi 1 : ");
+            double g = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Luas Jajar genjang Adalah : {0}", f * g);
+            return (alas);
+        }
+
+        public int LuasLayangLayang()
+        {
+            Console.Clear();
+            Console.WriteLine("5. Layang layang");
+            Console.WriteLine("Masukan diagonal 1 : ");
+            double h = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Masukkan diagonal 2 : ");
+            double i = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Luas Layang layang Adalah : {0}", h * i);
+            return (alas);
+        }
+    }
+}

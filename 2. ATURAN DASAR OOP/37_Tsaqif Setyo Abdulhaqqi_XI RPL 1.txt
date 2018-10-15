@@ -1,0 +1,112 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            menu:
+            string jawab;
+            Console.Clear();
+            Console.WriteLine("--- APLIKASI MENGHITUNG BANGUN RUANG ---"+System.Environment.NewLine);
+            Console.WriteLine("1. Luas dan Volume Kubus");
+            Console.WriteLine("2. Luas dan Volume Balok");
+            Console.WriteLine("3. Luas dan Volume Tabung");
+            Console.WriteLine("4. Luas dan Volume Kerucut");
+            Console.WriteLine("5. Luas dan Volume Prisma Segitiga");
+            Console.WriteLine("6. Luas dan Volume Balok");
+            Console.WriteLine("7. Luas dan Volume Bola"+System.Environment.NewLine);
+            Console.Write("Pilih Salah Satu : ");
+            int pilih = Convert.ToInt16(Console.ReadLine());
+            switch (pilih)
+            {
+                case 1:
+                    Console.Clear();
+                    Console.WriteLine("---- Luas dan Volume Kubus ----"+System.Environment.NewLine);
+                    Console.Write("Masukan Rusuk Kubus : ");
+                    int rusukKubus = Convert.ToInt32(Console.ReadLine());
+                    int luasKubus = 6 * rusukKubus * rusukKubus;
+                    int volumeKubus = rusukKubus * rusukKubus * rusukKubus;
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Luas Kubus adalah : " + luasKubus);
+                    Console.WriteLine("Volume Kubus adalah : " + volumeKubus + System.Environment.NewLine + System.Environment.NewLine);
+                    Console.Write("Kembali ke menu awal? (Y/T) : ");
+                    jawab = Console.ReadLine();
+                    if (jawab == "Y" || jawab == "y")
+                        goto menu;
+                    else
+                        Environment.Exit(0);
+                    break;
+                case 2:
+                    Console.Clear();
+                    Console.WriteLine("---- Luas dan Volume Balok ----" + System.Environment.NewLine);
+                    Console.Write("Masukan Panjang Balok : ");
+                    int pBalok = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Masukan Lebar Balok : ");
+                    int lBalok = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Masukan Tinggi Balok : ");
+                    int tBalok = Convert.ToInt32(Console.ReadLine());
+                    int luasBalok=2*pBalok*lBalok+2*pBalok*tBalok+2*lBalok*tBalok;
+                    int volumeBalok=pBalok*lBalok*tBalok;
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Luas Kubus adalah : " + luasBalok);
+                    Console.WriteLine("Volume Kubus adalah : " + volumeBalok + System.Environment.NewLine + System.Environment.NewLine);
+                    Console.Write("Kembali ke menu awal? (Y/T) : ");
+                    jawab = Console.ReadLine();
+                    if (jawab == "Y" || jawab == "y")
+                        goto menu;
+                    else
+                        Environment.Exit(0);
+                    break;
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine("---- Luas dan Volume Tabung ----" + System.Environment.NewLine);
+                    Console.Write("Masukan Luas Alas Tabung : ");
+                    int laTabung = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Masukan Tinggi Tabung : ");
+                    int tTabung = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Masukan Luas Selimut Tabung : ");
+                    int lsTabung = Convert.ToInt32(Console.ReadLine());
+                    int luasTabung = 2 * laTabung + lsTabung;
+                    int volumeTabung = laTabung * tTabung;
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Luas Tabung adalah : " + luasTabung);
+                    Console.WriteLine("Volume Tabung adalah : " + volumeTabung + System.Environment.NewLine + System.Environment.NewLine);
+                    Console.Write("Kembali ke menu awal? (Y/T) : ");
+                    jawab = Console.ReadLine();
+                    if (jawab == "Y" || jawab == "y")
+                        goto menu;
+                    else
+                        Environment.Exit(0);
+                    break;
+                case 4:
+                    Console.Clear();
+                    int phi = 22 / 7;
+                    Console.WriteLine("---- Luas dan Volume Kerucut ----" + System.Environment.NewLine);
+                    Console.Write("Masukan Jari-jari Lingkaran : ");
+                    int jLingkaran = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Masukan Tinggi Kerucut : ");
+                    int tKerucut = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Masukan Luas Selimut Kerucut : ");
+                    int lsKerucut = Convert.ToInt32(Console.ReadLine());
+                    int luasKerucut = phi * jLingkaran * jLingkaran * lsKerucut;
+                    int volumeKerucut = phi * jLingkaran * jLingkaran + lsKerucut;
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Luas Kerucut adalah : " + luasKerucut);
+                    Console.WriteLine("Volume Kerucut adalah : " + volumeKerucut + System.Environment.NewLine + System.Environment.NewLine);
+                    Console.Write("Kembali ke menu awal? (Y/T) : ");
+                    jawab = Console.ReadLine();
+                    if (jawab == "Y" || jawab == "y")
+                        goto menu;
+                    else
+                        Environment.Exit(0);
+                    break;
+            }
+        }
+    }
+}

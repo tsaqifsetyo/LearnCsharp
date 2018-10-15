@@ -1,0 +1,20 @@
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\bin\Debug\win_calc.exe.config
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\bin\Debug\win_calc.exe
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\bin\Debug\win_calc.pdb
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.csprojAssemblyReference.cache
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.Form1.resources
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.Properties.Resources.resources
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.csproj.GenerateResource.cache
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.csproj.CoreCompileInputs.cache
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.exe
+C:\Users\Vangga Eprila\source\repos\win_calc\win_calc\obj\Debug\win_calc.pdb
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\bin\Debug\win_calc.exe.config
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\bin\Debug\win_calc.exe
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\bin\Debug\win_calc.pdb
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.csprojAssemblyReference.cache
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.Form1.resources
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.Properties.Resources.resources
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.csproj.GenerateResource.cache
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.csproj.CoreCompileInputs.cache
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.exe
+D:\SMK TELKOM\KK3\37_TSAQIF SETYO ABDULHAQQI_XI RPL 1\37_Tsaqif Setyo Abdulhaqqi_XI RPL 1\9. GUI\win_calc\win_calc\obj\Debug\win_calc.pdb

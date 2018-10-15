@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bangundatar bgndtr1 = new bangundatar();
+            bgndtr1.LuasSegitiga();
+            Console.ReadLine();
+            bgndtr1.LuasPersegi();
+            Console.ReadLine();
+            bgndtr1.LuasPersegiPanjang();
+            Console.ReadLine();
+            bgndtr1.LuasJajarGenjang();
+            Console.ReadLine();
+            bgndtr1.LuasLayangLayang();
+            Console.ReadLine();
+            
+        }
+    }
+}
